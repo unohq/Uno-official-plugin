@@ -1,10 +1,10 @@
-# Uno for Cursor
+# Uno Official Plugin
 
-Start and follow engineering work in Uno from Cursor. The plugin bundles Uno's hosted MCP server and the `uno-thread` skill, which can upload screenshots and attach them to the first message of a new thread.
+Start and follow engineering work in Uno from clients that support [Agent Plugins](https://agent-plugins.org/compatible-clients). The plugin bundles Uno's hosted MCP server and the `uno-thread` skill, which can upload screenshots and attach them to the first message of a new thread.
 
-## Install from this repository
+## Install in Cursor
 
-Clone the repository and import its root from **Customize → Import from Disk** in Cursor. You can also copy the plugin files to `~/.cursor/plugins/local/uno` and reload Cursor. Enterprise administrators may need to enable local plugin imports. See the [Cursor plugin documentation](https://cursor.com/docs/plugins#test-plugins-locally).
+Clone [Uno-official-plugin](https://github.com/unohq/Uno-official-plugin) and import its root from **Customize → Import from Disk** in Cursor. You can also copy the plugin files to `~/.cursor/plugins/local/uno-official-plugin` and reload Cursor. Enterprise administrators may need to enable local plugin imports. See the [Cursor plugin documentation](https://cursor.com/docs/plugins#test-plugins-locally).
 
 In **Customize**, enable the Uno MCP server and use its sign-in action. Choose **One factory** for a workspace-scoped connection or **Personal — your factories** to use your current permissions across your factories. The plugin uses OAuth at `https://api.uno.engineering/mcp`. You can revoke access under [Uno MCP connections](https://app.run.uno/auth/mcp).
 
@@ -22,4 +22,4 @@ Add a **Remote HTTPS** custom connector in **Connect apps** using `https://api.u
 
 ## License
 
-The plugin configuration and skill are [MIT licensed](LICENSE). Uno retains rights to its name and logo.
+The plugin configuration and skill are [MIT licensed](LICENSE). Uno retains rights to its name and [logo](assets/uno-logo.png).
