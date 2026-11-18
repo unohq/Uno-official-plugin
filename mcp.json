@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "uno": {
+      "url": "https://api.uno.engineering/mcp"
+    }
+  }
+}

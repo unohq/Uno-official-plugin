@@ -1,0 +1,16 @@
+{
+  "name": "uno",
+  "displayName": "Uno",
+  "description": "Start and follow engineering work in Uno, with screenshots attached to the first message.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Uno"
+  },
+  "homepage": "https://run.uno",
+  "repository": "https://github.com/unohq/uno-cursor-plugin",
+  "license": "MIT",
+  "logo": "assets/uno-logo.png",
+  "keywords": ["uno", "mcp", "engineering", "attachments"],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}
