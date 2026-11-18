@@ -3,7 +3,7 @@
   "mcpServers": {
     "uno": {
       "type": "streamable-http",
-      "url": "https://api.uno.engineering/mcp"
+      "url": "https://api.run.uno/mcp"
     }
   }
 }

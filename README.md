@@ -6,7 +6,7 @@ Start and follow engineering work in Uno from clients that support [Agent Plugin
 
 Clone [Uno-official-plugin](https://github.com/unohq/Uno-official-plugin) and import its root from **Customize → Import from Disk** in Cursor. You can also copy the plugin files to `~/.cursor/plugins/local/uno-official-plugin` and reload Cursor. Enterprise administrators may need to enable local plugin imports. See the [Cursor plugin documentation](https://cursor.com/docs/plugins#test-plugins-locally).
 
-In **Customize**, enable the Uno MCP server and use its sign-in action. Choose **One factory** for a workspace-scoped connection or **Personal — your factories** to use your current permissions across your factories. The plugin uses OAuth at `https://api.uno.engineering/mcp`. You can revoke access under [Uno MCP connections](https://app.run.uno/auth/mcp).
+In **Customize**, enable the Uno MCP server and use its sign-in action. Choose **One factory** for a workspace-scoped connection or **Personal — your factories** to use your current permissions across your factories. The plugin uses OAuth at `https://api.run.uno/mcp`. You can revoke access under [Uno MCP connections](https://app.run.uno/auth/mcp).
 
 ## Start a thread
 
@@ -18,7 +18,7 @@ For an image handoff, the agent needs access to the actual file and the ability 
 
 ## Use with Grok Bot
 
-Add a **Remote HTTPS** custom connector in **Connect apps** using `https://api.uno.engineering/mcp` and complete Uno OAuth. Use [the skill instructions](skills/uno-thread/SKILL.md) as a private skill in Grok Bot, or paste them into a request. The same upload works when the Bot can read the original file bytes and make the signed HTTPS PUT. See [Grok Bot custom connectors](https://docs.x.ai/grok-bot/computer-and-apps) and [private skills](https://docs.x.ai/grok-bot/skills-routines-and-automations#save-a-skill).
+Add a **Remote HTTPS** custom connector in **Connect apps** using `https://api.run.uno/mcp` and complete Uno OAuth. Use [the skill instructions](skills/uno-thread/SKILL.md) as a private skill in Grok Bot, or paste them into a request. The same upload works when the Bot can read the original file bytes and make the signed HTTPS PUT. See [Grok Bot custom connectors](https://docs.x.ai/grok-bot/computer-and-apps) and [private skills](https://docs.x.ai/grok-bot/skills-routines-and-automations#save-a-skill).
 
 ## License
 
